@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab_exam</string>
+    <string-array name="units">
+        <item>KM-Miles</item>
+        <item>KM-CM</item>
+        <item>KM-M</item>
+    </string-array>
+</resources>
