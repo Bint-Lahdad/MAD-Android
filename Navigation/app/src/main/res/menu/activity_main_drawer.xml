@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/registration_form"
+            android:icon="@drawable/ic_register"
+            android:title="@string/registration" />
+        <item
+            android:id="@+id/view_registration"
+            android:icon="@drawable/ic_info"
+            android:title="@string/view_registration" />
+        <item
+            android:id="@+id/user_info"
+            android:icon="@drawable/ic_baseline_account_circle_24"
+            android:title="@string/user_info" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/logout" />
+    </group>
+</menu>
